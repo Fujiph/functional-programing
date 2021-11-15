@@ -1,1 +1,2 @@
---Hello world.
+rev [] = []
+rev (x:xs) = rev(xs) ++ [x]
