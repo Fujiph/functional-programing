@@ -1,0 +1,1 @@
+partition p = foldr (\a (xs, ys) -> if p a then (a:xs, ys) else (xs, a:ys)) ([],[])
